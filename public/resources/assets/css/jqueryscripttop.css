@@ -1,0 +1,77 @@
+ input[id="search"] {
+  height: 15px;
+  padding: 2px;
+  text-align: left;
+}
+
+table {
+  font-size: 0.75em;
+  color: #444;
+  background: #fff;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 5px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e0e0e0;
+  background: #666;
+  color: #fff;
+}
+
+table tr:first-child th:first-child {
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+table tr:first-child th:last-child {
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+table td {
+  text-align: left;
+  padding: 7px;
+  border: 1px solid #eee;
+  background: #fdfdfd;
+}
+
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+.pageInput {
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+td .editInput {
+  width: 100%;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+}
+
+button {
+  margin-left: 5px;
+  line-height: 18px;
+}

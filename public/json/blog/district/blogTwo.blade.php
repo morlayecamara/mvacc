@@ -1,0 +1,1 @@
+[{"value":116,"percent":23,"nofully":77}]
